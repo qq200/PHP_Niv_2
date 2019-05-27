@@ -1,0 +1,19 @@
+session_start() -porneste pe server
+session_distroy() -sterge
+session_status()
+session_id()
+
+
+$_SESSION <-write/read->
+
+
+DATA:
+    +persistent -sa se salveze pe mai mult timp
+        *cookie, file, cache, session, database
+    +exchange - schimb de date : encode/decode (convertions)
+        *serialization/unserialisation
+        *JSON
+        *XML
+        *YAML
+    +codec/hashing
+
